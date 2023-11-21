@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sinwoo - 그라데이션 인트로 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bayon&family=Montagu+Slab:opsz,wght@16..144,500&family=Poltawski+Nowy:wght@500&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body {
+            background: url("./images/Rectangle\ 1.svg")no-repeat center/cover;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .sinwoo {
+            font-family: 'Montagu Slab', serif;
+            font-size: 150px;
+            animation: slide-up 1s ease both;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(100%);
+            }
+
+            to {
+                transform: translateY(0%);
+            }
+        }
+
+        .S {
+            animation-delay: 0s;
+        }
+
+        .W {
+            animation-delay: 1s;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- .box>.sinwoo.A{A}*2 -->
+    <div class="box">
+        <div class="sinwoo S">S</div>
+        <div class="sinwoo W">W</div>
+    </div>
+</body>
+
+</html>
